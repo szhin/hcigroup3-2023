@@ -1,0 +1,181 @@
+/* 
+font-family: 'Patrick Hand', cursive;
+font-family: 'Poppins', sans-serif; 
+
+#d49a3a: mau vang
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f0eb;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #666666;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-wrap {
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  background: linear-gradient(
+    135deg,
+    #0a4f53 0%,
+    rgba(145, 129, 66, 0.1) 67%,
+    rgba(212, 154, 58, 0.1) 100%
+  );
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1.2rem;
+}
+
+.subheading {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 0;
+}
+
+.heading-primary {
+  font-weight: 400;
+  color: #fff;
+  font-size: 8rem;
+  line-height: 1.2;
+  font-family: "Patrick Hand", cursive;
+  margin-bottom: 2.4rem;
+}
+.heading-secondary {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.4;
+  font-family: "Patrick Hand", cursive;
+  color: #39311d;
+}
+.heading-high {
+  font-family: "Patrick Hand", cursive;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+}
+
+.btn {
+  padding: 0.9rem 1.2rem;
+  cursor: pointer;
+  border-radius: 4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #d49a3a !important;
+  padding: 1.6rem 2.4rem;
+  border: 1px solid #d49a3a !important;
+  color: #fff !important;
+}
+
+.icon {
+  width: 4.5rem;
+  color: #fff;
+}
+
+/* -----------Col and Row------------ */
+
+.col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+
+.col-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;
+}
+
+.col-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 3rem;
+}
+
+/* -----------Col and Row------------ */
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 54rem;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720rem;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 96rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 114rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 122rem;
+  }
+}
+
+.hidden {
+  opacity: 0.5;
+  /* filter: blur(5px); */
+  transform: translateY(-70%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  /* filter: blur(0); */
+  transform: translateY(0);
+}

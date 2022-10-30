@@ -1,0 +1,95 @@
+/* 
+font-family: 'Patrick Hand', cursive;
+font-family: 'Poppins', sans-serif; 
+
+color: #22b8cf; màu xanh dương
+       #66d9e8; nhat hon
+
+*/
+
+/*  ////////////////////////////////////////////////////////  */
+/* //////////////////////  ALL WEBSITE  //////////////////// */
+/* ///////////////////////////////////////////////////////// */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebfbee;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #666666;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1.2rem;
+}
+
+/* ////////////////////////  HEADING  ///////////////////////// */
+.heading-primary {
+  font-size: 8rem;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.2;
+  font-family: "Patrick Hand", cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* ////////////////////////  HEADING  ///////////////////////// */
+/* /////////////////////  RESPONSIVE /////////////////////// */
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 54rem;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720rem;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 96rem;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 114rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 144rem;
+  }
+}
+
+.active {
+  color: #e67e22;
+}

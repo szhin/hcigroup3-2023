@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./cssGroup/generalGroup.css">
+    <link rel="stylesheet" href="./cssGroup/styleGroup.css">
+    <link rel="icon" type="image/x-icon" href="./img/imgGroup/logohci2023.png">
+
+    <title>Group03 - HCI2023</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="./img/imgGroup/logohci2023.png" alt="Logo Group">
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link hover" href="about.html">About</a></li>
+                <li><a class="main-nav-link hover" href="design.html">Design</a></li>
+                <li><a class="main-nav-link hover" href="groupdiary.html">Group Diary</a></li>
+                <li><a class="main-nav-link hover" href="#" style="--s: 0.4rem; 
+                    --c: rgba(34, 111, 84, 1);
+                  
+                    /* color: #0000; */
+                    padding-bottom: var(--s);
+                    background: linear-gradient(90deg, var(--c) 50%, #000 0)
+                        calc(100% - var(--_p, 0%)) / 200% 100%,
+                      linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+                    -webkit-background-clip: text, padding-box;
+                    background-clip: text, padding-box;
+                    transition: 0.5s;--_p: 100%;">Technical</a></li>
+                <li><a class="main-nav-link hover"
+                        href="https://www.figma.com/file/tELFuXAIGEP2dpZ7toons6/HCI2023?node-id=221%3A6"
+                        target="_blank">Figma</a></li>
+                <li><a class="main-nav-link btn" style="color: #fff;" href="start.html" target="_blank">Our project</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-hero" id="hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">Welcome to<span></span></h1>
+                    <h1 class="heading-primary">Website Technical<span></span></h1>
+                    <p>
+                        In this website we will help you to understand more <span></span>
+                    </p>
+                    <p>
+                        about firebase its concept and how to use it<span></span>
+                    </p>
+                    <!-- <p>same task, to grow together and go further.<span></span> </p> -->
+
+                    <p>What is Firebase?<span></span></p>
+
+                </div>
+                <div class="hero-img-box">
+                    <picture>
+                        <img src="./img/image/firebase.png" class="hero-img" alt="IMG Hero"><span></span>
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="section--1" id="section1">
+            <div class="container introduce">
+                <div class="col-2">
+                    <div class="firebase-left">
+                        <h2 class="heading-secondary">I. What is Firebase?</h2>
+                        <p class="firebase-description">Firebase is a Backend-as-a-Service (Baas). It provides
+                            developers
+                            with a
+                            variety
+                            of tools and
+                            services to help them develop quality apps, grow their user base, and earn profit. It is
+                            built
+                            on
+                            Google’s infrastructure.
+                        </p>
+                        <p class="firebase-description">Firebase is categorized as a NoSQL database program, which
+                            stores
+                            data
+                            in JSON-like documents.</p>
+                    </div>
+                    <div class="firebase-right">
+                        <img src="./img/image/Firebase.jpg" class="hero-img" alt="IMG Hero"><span></span>
+                    </div>
+                </div>
+                <div class="firebase-details">
+                    <h2 class="heading-secondary">Key Features</h2>
+                    <h3 class="heading-high">1. Authentication</h3>
+                    <p class="firebase-description">It supports authentication using passwords, phone numbers, Google,
+                        Facebook, Twitter, and more. The Firebase Authentication (SDK) can be used to manually integrate
+                        one or more sign-in methods into an app.
+                    </p>
+                    <h3 class="heading-high">2. Realtime database</h3>
+                    <p class="firebase-description">Data is synced across all clients in realtime and remains available
+                        even when an app goes offline.
+                    </p>
+                    <h3 class="heading-high">3. Hosting</h3>
+                    <p class="firebase-description">Firebase Hosting provides fast hosting for a web app; content is
+                        cached into content delivery networks worldwide.
+                    </p>
+                    <h3 class="heading-high">4. Test lab</h3>
+                    <p class="firebase-description">The application is tested on virtual and physical devices located in
+                        Google’s data centers.
+                    </p>
+                    <h3 class="heading-high">5. Notifications</h3>
+                    <p class="firebase-description">Notifications can be sent with firebase with no additional coding.
+
+                        Users can get started with firebase for free; more details can be found on the official website.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section--2">
+            <div class="container introduce">
+                <h2 class="heading-secondary">II. How to update the website to Firebase</h2>
+                <div class="firebase-details">
+                    <h4>1. Open firebase, log in to the account</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/1.png">
+                    </a>
+                    <h4>2. Naming, must not coincide with the available names</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/2.png">
+                    </a>
+                    <h4>3. Select Enable and click Create Project</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/3.png">
+                    </a>
+                    <h4>4. Wait for Firebase to create the project</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/4.png">
+                    </a>
+                    <h4>5. Check the Node's version</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/5.png">
+                    </a>
+                    <h4>6. If you don't have node installed, go to this website</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/6.png">
+                    </a>
+                    <h4>7. Type command: "npm -g install firebase-tools"</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/20.png">
+                    </a>
+                    <h4>8. Type "firebase --version" command to check the version</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/21.png">
+                    </a>
+                    <h4>9. Type command: "firebase login"</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/22.png">
+                    </a>
+                    <h4>10. Follow the steps in the order shown below</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/10.png">
+                    </a>
+
+                    <h4>11. Choose account</h4>
+                    <a href="#!">
+                        <img class="firebase-img zoom" src="./img/firebase/11.png">
+                    </a>
+                    <h4>12. Click allow</h4>
+                    <a href="#!">
+                        <img class="firebase-img zoom" src="./img/firebase/12.png">
+                    </a>
+                    <h4>13. Type command: "firebase serve --only hosting"</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/13.png">
+                    </a>
+                    <h4>14. Choose name Firebase</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/14.png">
+                    </a>
+                    <h4>14. Choose as shown below</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/15.png">
+                    </a>
+                    <h4>15. Complete ✨🎉🎈</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/firebase/16.png">
+                    </a>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <section class="section--3">
+            <div class="container introduce">
+                <h2 class="heading-secondary">III. How to create ".tk" domain link</h2>
+                <div class="firebase-details">
+                    <h4>1. Go to the website as shown</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/1.png">
+                    </a>
+
+                    <h4>2. Log in Account</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/2.png">
+                    </a>
+                    <h4>3. Select Services → Register a New Domain</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/3.png">
+                    </a>
+                    <h4>4. Type domain.tk and Check Availability</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/4.png">
+                    </a>
+                    <h4>5. Check out</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/5.png">
+                    </a>
+                    <h4>6. Enter the domain name you want to convert, select 12 Months Free</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/6.png">
+                    </a>
+                    <h4>7. Complete Order</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/7.png">
+                    </a>
+                    <h4>8. Click here to go to your Client Area</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/8.png">
+                    </a>
+                    <h4>9. Select Services → My Domains</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/9.png">
+                    </a>
+                    <h4>10. Select Manage Domain</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/10.png">
+                    </a>
+                    <h4>11. Select Manage Freenom DNS</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/11.png">
+                    </a>
+                    <h4>12. Go to Firebase and Select Add Custom domain</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/12.png">
+                    </a>
+                    <h4>13. Copy link in Value</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/13.png">
+                    </a>
+                    <h4>14. Paste link in Target, Select "TXT" and Save Changes</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/14.png">
+                    </a>
+                    <h4>15. Verify and Wait 😊🎮</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/15.png">
+                    </a>
+                    <h4>16. 5-10 minutes will be done, continue copy Value</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/16.png">
+                    </a>
+                    <h4>17. Paste link in Target, Select "A" and Save Changes</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/17.png">
+                    </a>
+                    <h4>18. Finish and wait Firebase</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/18.png">
+                    </a>
+                    <h4>19. It takes about 5 to 10 minutes for the link to take effect</h4>
+                    <a href="#!">
+                        <img class="firebase-img" src="./img/tk/19.png">
+                    </a>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        </section>
+        <footer class="section-footer" id="footer">
+            <div class="footer container">
+                <!------------------ 1 ------------------->
+                <a href="#">
+                    <img class="logo" src="./img/imgGroup/logohci2023.png" alt="Logo Group">
+                </a>
+                <!------------------ 2 ------------------->
+
+                <!------------------ 3 ------------------->
+                <div class="footer-item">
+                    <h4>Contact</h4>
+                    <p>hci2023group03@gmail.com</p>
+                    <h4>LICENSE</h4>
+
+                </div>
+                <!------------------ 4 ------------------->
+                <div class="footer-item">
+                    <h4>Explore</h4>
+                    <div class="resource-item">
+                        <a href="design.html">Design</a>
+
+                        <a href="groupdiary.html">Group Diary</a>
+                        <a href="technical.html">Technical</a>
+                        <a href="about.html">About</a>
+                        <a href="group.html">HCI</a>
+                        <a href="start.html">Project</a>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <h4>Resources</h4>
+                    <div class="resource-item">
+                        <a href="#">Recipe directory</a>
+                        <a href="#">Help center</a>
+                        <a href="#">Privacy & terms</a>
+                    </div>
+                </div>
+                <!-- ------------------------------------ -->
+            </div>
+            <p class="copyright">Copyright © 2022 by Group3
+            </p>
+
+        </footer>
+    </main>
+
+</body>

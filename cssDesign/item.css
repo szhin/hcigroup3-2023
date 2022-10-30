@@ -1,0 +1,82 @@
+/* ////////////////// Design HTML /////////////////// */
+.section-design {
+  padding-top: 5rem;
+  /* height: 100vh; */
+  background-color: inherit;
+  color: #000;
+}
+.section-design .heading-secondary {
+  margin-bottom: 3rem;
+}
+.section-design .heading-secondary:last-child {
+  margin-bottom: 10rem;
+}
+
+.scroll {
+  overflow: scroll;
+  background-color: #fff;
+  height: 50rem;
+  margin-bottom: 5rem;
+}
+
+.scroll img {
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+
+  /* border-bottom: 1px solid #000; */
+}
+
+.scroll img:last-child {
+  border-bottom: none;
+}
+
+.scroll .heading-high {
+  font-size: 2rem;
+  margin: 1rem 0 0 3rem;
+}
+
+/* ////////////////// Requirement HTML /////////////////// */
+.section-requirement {
+  margin-top: 5rem;
+  color: #000;
+}
+
+.section-requirement .heading-secondary {
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+.section-requirement .heading-high {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.heading-secondary a {
+  color: crimson;
+  transition: all 0.5s;
+}
+.heading-secondary a:hover {
+  color: orange;
+}
+
+.section-requirement p {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.note {
+  color: red;
+  margin-bottom: 8rem !important;
+}
+
+/* ////////////////////////////////////////////////// */
+.requirement {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+}

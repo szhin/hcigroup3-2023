@@ -1,0 +1,403 @@
+/* ///////////////////Footer ////////////////////*/
+
+.footer {
+  padding: 6rem 0;
+  border-top: 1px solid #eee;
+  background: #b2f2bb;
+  margin-top: 8rem;
+}
+
+.grid--footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #000;
+
+  margin-top: 3rem;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.contacts .footer-link {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.logo-col .brand {
+  margin-top: -2rem;
+}
+
+.logo-col .brand {
+  color: #000;
+}
+
+.logo-col .brand span {
+  color: #000;
+}
+
+/* /////////////////////SCENARIO//////////////////// */
+
+.section-scenario {
+  font-size: 2rem;
+  background-color: inherit;
+}
+
+.img-about {
+  width: 100%;
+}
+
+.scenario .heading-secondary {
+  font-size: 3.7rem;
+  margin-bottom: 2rem;
+}
+
+.sce-description {
+  font-size: 1.8rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.sce-description span {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.scenario-left .sce-description {
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: #fdf2e9;
+  text-align: center;
+}
+
+.sce-item {
+  display: flex;
+}
+
+.scenario {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  column-gap: 5rem;
+}
+
+.scenario-right {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  row-gap: 5rem;
+}
+
+.sce-righttop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+}
+
+.sce-rightbottom {
+  display: flex;
+}
+
+/* /////////////////////SECTION LABS//////////////////// */
+
+.section-labs {
+  position: relative;
+  height: 100%;
+}
+
+.labs {
+  width: 100%;
+  position: relative;
+}
+
+.tabs {
+  position: absolute;
+  padding: 2.4rem 0 !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.labs-items {
+  position: relative;
+  display: flex;
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* border-bottom: 2px solid #767676 !important; */
+}
+
+.bang-nav-link {
+  cursor: pointer;
+  font-family: "Patrick Hand", cursive;
+  border-color: #000;
+  background-color: #ebfbee;
+  padding: 7px 17px 17px;
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  font-size: 2.4rem;
+  transition: all 0.3s;
+}
+
+.bang-nav-link:hover {
+  color: #2b8a3e;
+}
+
+.nav-item-test {
+  width: 100%;
+}
+
+.tab-item.active {
+  opacity: 1;
+}
+
+.tab-item.active .bang-nav-link {
+  border-width: 2px 2px 0;
+  color: #2b8a3e;
+}
+
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: block;
+}
+
+.tab a {
+  /* font-family: "Patrick Hand", cursive; */
+  text-transform: uppercase;
+  padding: 8px 20px;
+  font-size: 2rem;
+  background-color: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+
+.tab a.active-a,
+.tab a:hover {
+  background-color: #2b8a3e;
+  color: #fff;
+}
+
+.requirement-figma {
+  position: relative;
+}
+
+/* //////////////////////////////////////////////// */
+.logo {
+  width: 15rem;
+}
+
+.header {
+  font-family: "Patrick Hand", cursive;
+  height: 8rem;
+  width: 100%;
+  /* position: fixed; */
+  padding: 0 5.6rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: end;
+  align-items: center;
+  background-color: #b2f2bb;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 5px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(34, 111, 84, 1);
+  font-weight: 500;
+  font-size: 2.4rem;
+  transition: all 0.3s;
+}
+
+.nav-item-link:hover {
+  color: #37b24d;
+}
+
+.hover {
+  --s: 0.4rem;
+  --c: rgba(34, 111, 84, 1);
+
+  padding-bottom: var(--s);
+  background: linear-gradient(90deg, var(--c) 50%, #000 0)
+      calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.5s;
+}
+.hover:hover {
+  --_p: 100%;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+  color: #fff;
+  background-color: rgb(0 106 67);
+}
+
+.main-nav-link.btn {
+  /* padding: 0; */
+  font-family: "Rubik", sans-serif;
+  padding: 1rem 3.2rem !important;
+}
+
+.btn:hover {
+  background-color: #2b8a3e;
+}
+
+.footer {
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10rem;
+  border: none !important;
+  color: #000;
+}
+
+.section-footer {
+  padding: 4rem;
+  background-color: #b2f2bb;
+  color: #000;
+}
+
+.footer-item {
+  font-size: 1.6rem;
+  line-height: 1.9;
+}
+
+.footer-item h4 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.copyright {
+  font-size: 2rem;
+  text-align: center;
+}
+.resource-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-item a {
+  text-decoration: none;
+  color: #000;
+}
+.requirement-paper {
+  position: relative;
+}
+.figma {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 4px 4rem;
+  transition: all 0.3s;
+}
+
+.requirement-paper a,
+.figma {
+  position: absolute;
+  color: crimson !important;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  top: 0rem;
+  right: 2rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  transition: all 0.5s;
+
+  /* background-color: rgb(0 106 67); */
+}
+
+.requirement-paper a:hover,
+.figma:hover {
+  background-color: crimson;
+  color: #000 !important;
+}

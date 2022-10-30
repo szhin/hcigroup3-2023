@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #444;
+  background-color: #ebfbee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1rem;
+  margin-top: 4rem;
+}
+.subheading {
+  font-size: 14px;
+  display: block;
+  margin-bottom: -2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.section5 .subheading,
+.section5 .heading-secondary {
+  display: flex;
+  justify-content: center;
+}
+.heading-secondary {
+  font-family: "Patrick Hand", cursive;
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #fff;
+}
+
+.section5 .section--5 .heading-high {
+  font-family: "Patrick Hand", cursive;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.hero-wrap {
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-family: "Patrick Hand", cursive;
+
+  font-size: 6.4rem;
+  line-height: 0.5;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  font-weight: 400;
+  /* text-align: center; */
+  margin-bottom: 5.6rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+  color: #fff;
+  background-color: rgb(0 106 67);
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(14, 158, 105);
+}
+
+@keyframes text_reveal_box {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes text_reveal {
+  100% {
+    color: #000;
+    /* color: #fff; */
+  }
+}
+
+@keyframes text_reveal_name {
+  100% {
+    color: rgb(11, 116, 53);
+    font-weight: bold;
+  }
+}

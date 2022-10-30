@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/imgGroup/logohci2023.png">
+    <title>Sign in</title>
+</head>
+
+<body>
+    <section class="section section-hero hero-register" id="hero">
+        <div class="hero-signin">
+            <div class="signin">
+                <a class="a-btn-close" href="start.html"><svg class="btn-close" xmlns="http://www.w3.org/2000/svg"
+                        width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                        <path
+                            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
+                    </svg></a>
+                <a class="brand" href="#!">Macbook
+                    <small>Shop</small>
+                    <span>group3 - HCI 2023</span>
+                </a>
+                <div class="form-register">
+                    <div class="email">
+                        <label for="email" class="label">Enter your Email</label>
+                        <input type="text" class="input" placeholder="Your Email">
+                    </div>
+                    <div class="pass">
+                        <div>
+                            <label for="Password" class="label">Create Password</label>
+                        </div>
+                        <input type="password" class="input" placeholder="Password">
+                    </div>
+                </div>
+
+                <a href="start.html" class="btn btn-nav"
+                    onclick="document.getElementById('id01').style.display='block'">Register</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('hero');
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                window.location = "https://hci2023group703.tk/start.html";
+            }
+        }
+    </script>
+</body>
+
+</html>
